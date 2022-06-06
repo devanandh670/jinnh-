@@ -136,7 +136,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
         });
 
         console.log(
-            chalk.green.bold('Jimbrootan working! 🧞‍')
+            chalk.green.bold('𝘿𝙆 working! 🧞‍')
         );
     });
     
@@ -269,7 +269,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '🧞‍♂️______```Jimbrootan V-2.0```_____🧞‍' +
+                                await conn.sendMessage(conn.user.jid, '🧞‍♂️______```𝘿𝙆 V-2.0```_____🧞‍' +
                                     '\n\n*🧞‍ ' + error + '*\n'
                                     , MessageType.text);
                             }
